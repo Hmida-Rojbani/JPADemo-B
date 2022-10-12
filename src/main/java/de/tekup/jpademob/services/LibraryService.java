@@ -21,4 +21,7 @@ public class LibraryService {
     public List<LibraryEntity> selectAll(){
         return (List<LibraryEntity>) libraryRepository.findAll();
     }
+
+    //TODO add a method to retrieve library by ID
+
 }

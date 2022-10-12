@@ -28,4 +28,6 @@ public class LibraryCtrl {
     public LibraryEntity addLibrary(@RequestBody LibraryEntity library){
         return libraryService.insertIntoDB(library);
     }
+
+    //TODO add a GET method to call the service of retrieve library by ID
 }
